@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritesh Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Pritesh</h1>
+            <p>
+                I'm a passionate Backend Developer dedicated to architecting robust systems and powering innovative digital solutions. 
+            </p>
+            <p>With 1+ years of hands-on experience, I specialize in designing and implementing scalable backend infrastructures that drive performance and reliability.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/pritesh-55"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/pritesh_srv"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/pritesh_________________/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/pritesh-srivastava-8903531b8/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="images/CVPritesh.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-curly'></i>
+                    <h3>Soft. Engineer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>NodeJS Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <!-- <img src="images/homee.png" alt=""> -->
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, Welcome to my website! I'm Pritesh Srivastava,
+                a passionate Backend Developer who thrives on the intricacies of crafting the digital backbone that powers seamless user experiences.
+            </h3>
+            <p>
+                My journey into backend development began with a fascination for problem-solving and a relentless pursuit of efficiency. Over the years, I've delved deep into the nuances of NodeJS, TypeScript, RestAPIs, Databases, Architectures, WebSockets, Deployments mastering the art of turning complex requirements into elegant, functional solutions.
+            </p>
+            <p>
+                Outside of coding, you'll find me exploring the latest trends in technology, experimenting with new tools and frameworks, or simply enjoying the outdoors. Beyond technical expertise, I value collaboration and communication. I thrive in environments where ideas flow freely, where every challenge is an opportunity to learn and grow together. 
+                Thank you for visiting my website and getting to know me better.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Backend Development</h3>
+                <p>Proficient in NodeJS, ExpressJS, TypeScript, I have a knack for designing clean, maintainable code that forms the backbone of robust systems. I excel in database design, optimization, and administration, ensuring seamless data flow and efficient storage for both SQL and NoSQL databases.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>API Integration</h3>
+                <p>I have extensive experience in building and integrating APIs, facilitating smooth data exchange and interoperability across platforms. From RESTful APIs to GraphQL endpoints, I leverage best practices to ensure seamless integration and streamlined workflows between disparate systems.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Deployment</h3>
+                <p> I have expertise in configuring deployment pipelines, utilizing tools like Docker to orchestrate containerized deployments, and leveraging cloud platforms such as AWS, Netlify, Render for both serverful and serverless deployments, scalable and reliable hosting solutions.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.webp" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Urban Space Backend</h4>
+                    <p>Responsible for the intricate backend infrastructure powering the dynamic Ecommerce platform specializing in Repairing
+                        and Installation Services</p>
+                    <a href="https://www.urbanspace.shop/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Chat Application</h4>
+                    <p>A real time chat application using Node.js and socket.io</p>
+                    <a href="https://priteshchatapp.onrender.com/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Movie Critic</h4>
+                    <p>A Movie Review website where users can give reviews and post comments to a movie. </p>
+                    <a href="https://movie-critic-a7gv.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Slot Games</h4>
+                    <p>Created Web based Slot Games with features like Free Spins, Pick Bonus, Expanding Wild using TypeScript, Pixi.js, Node.js</p>
+                    <a href="https://github.com/pritesh-55/Slot-Games-for-Epic-Games"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Face Recognition Web App</h4>
+                    <p>Seamlessly detects faces from webcam or video in real-time using my JavaScript and face-api.js-powered Web App.</p>
+                    <a href="https://github.com/pritesh-55/Face-Recognition-Web-App"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Music Player</h4>
+                    <p>Fetching a self created API which have stored audio links and integrating with user interactive Frontend.</p>
+                    <a href="https://6f33e160-08f2-41af-a5b7-b7f1898121ce-00-3g8ada1k03p95.spock.replit.dev/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <!-- <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
